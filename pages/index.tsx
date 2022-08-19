@@ -47,9 +47,9 @@ const Home: NextPage = () => {
   return (
     <div>
       <button onClick={handleClickBack}>足す(back)</button>
-      <p>{resultBack}</p>
+      <p>back{resultBack}</p>
       <button onClick={handleClickMain}>足す(main)</button>
-      <p>{resultMain}</p>
+      <p>main{resultMain}</p>
 
       <h1>{time}</h1>
     </div>

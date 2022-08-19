@@ -1,0 +1,1 @@
+console.log("self",self),self.addEventListener("message",function(a){for(var b=a.data,c=0,d=0;d<1e3;d++){c=0;for(var e=1;e<=b;e++)c+=e}postMessage(c)}),_N_E={}
